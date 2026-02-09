@@ -11,7 +11,8 @@ def create_app() -> FastAPI:
             "http://localhost:3000",
             "http://127.0.0.1:3000",
             "https://your-frontend-domain.vercel.app",
-            "https://cors-test-vercel-news-scrape.vercel.app"
+            "https://cors-test-vercel-news-scrape.vercel.app",
+            "https://pipeline-ta80.onrender.com"
         ],
         allow_credentials=True,
         allow_methods=["*"],
